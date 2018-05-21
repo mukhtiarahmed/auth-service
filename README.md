@@ -1,4 +1,4 @@
-#  Product and Warehouse and Inventory (PWI) 
+#  Spring security oauth2 example
 
 ## Prerequisites:
 * MySQL 5.7
