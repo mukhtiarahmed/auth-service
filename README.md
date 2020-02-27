@@ -14,8 +14,7 @@
 3. change to the root folder of the project and excute the following maven command 
   * `mvn spring-boot:run`
   * now the REST api is up and running with tomcat 8 on `localhost:8080`
-     
-     
+   
 4. Let's check if our authentication endpoint is working
    * `curl -X POST   http://localhost:8080/oauth/token   -H 'authorization: Basic YnJvd3NlcjpzZWNyZXQ=' -F grant_type=password   -F username=ahmed   -F password=ahmed   -F scope=trust`
   
